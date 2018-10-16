@@ -1,5 +1,5 @@
 # my_hunter_2017
-The fabled "My Hunter II : Revenge of the Duck Hunter - Revelation of the Doom Prophet" game that everyone loves.
+The fabled "My Hunter II : Legacy of the Duck Hunter : Revelations of the Doom Prophet" game that everyone loves.
 
 This game requires CSFML, so good luck playing it.
 
