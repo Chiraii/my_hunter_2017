@@ -1,7 +1,11 @@
 # my_hunter_2017
 The fabled "My Hunter II : Legacy of the Duck Hunter : Revelations of the Doom Prophet" game that everyone loves.
 
-This game requires CSFML, so good luck playing it.
+///////////////////////////////////////////////////////////////
+  THIS GAME REQUIRES CSFML, AND WORKS ONLY ON LINUX SYSTEMS!
+///////////////////////////////////////////////////////////////
+
+If you achieve making this amazing game work on Windows, please let me know.
 
 
 How to play :
