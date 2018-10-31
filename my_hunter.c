@@ -11,31 +11,6 @@
 #include <time.h>
 #include "framebuffer.h"
 
-void framebuffer_destroy(framebuffer_t *framebuffer)
-{
-	free(framebuffer->pixels);
-}
-
-framebuffer_t *framebuffer_create(unsigned int width, unsigned int height)
-{
-	framebuffer_t *framebuffer;
-
-	framebuffer->width = width;
-	framebuffer->height = height;
-	framebuffer->pixels = malloc(width * height);
-	return (framebuffer);
-}
-
-void my_put_pixel(framebuffer_t *framebuffer, unsigned int x, unsigned int y, sfColor color)
-{
-	int pos = x * y * 4 + 1;
-
-	framebuffer->pixels[pos] = color.r;
-	framebuffer->pixels[pos + 1] = color.g;
-	framebuffer->pixels[pos + 2] = color.b;
-	framebuffer->pixels[pos + 3] = color.a;
-}
-
 void disp_hearts(sfSprite *heart, int lives, sfRenderWindow *window)
 {
 	sfVector2f pos;
